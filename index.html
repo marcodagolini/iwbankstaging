@@ -1,4 +1,94 @@
 <html>
+
+<style>
+	
+@font-face {
+  font-family: "SF Regular";
+  font-weight: 400;
+  src: url("https://www.buddybank.com/assets/font/sanfranciscodisplay-regular-webfont.woff");
+}
+
+.lpw-container{
+  z-index: 10;
+  padding: 50px 50px 0;
+  font-family: "SF Regular", "Helvetica", arial;
+  font-size: 17px;
+  letter-spacing: 0px;
+}
+.lpw-container .lpw-inner-container{
+  border:solid 1px #fff;
+  border-radius: 15px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 0px 0px 80px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 80px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 80px -5px rgba(0,0,0,0.75);
+}
+.lpw-container .lpw-close{
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    z-index: 3;
+    overflow: hidden;
+}
+.lpw-container .lpw-close button{
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    background: none;
+}
+.lpw-container .lpw-close button img{display:block;width: 32px;height: 32px;}
+.lpw-container .lpw-content{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.lpw-container .lpw-top-banner{
+  padding: 21px 30px 40px;
+  position: relative;
+  background: #000;
+}
+.lpw-container .lpw-top-banner p{margin: 0;font-size: 15px;}
+.lpw-container .lpw-top-banner button{
+    padding: 8px 17px;
+    background: #54f1a8;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 14px;
+    font-size: 15px;
+    font-family: "SF Regular", "Helvetica", arial;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -ms-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+}
+.lpw-container .lpw-top-banner button:hover{
+    background: #fff;
+}
+.lpw-container .lpw-cta-container{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -14px;
+    text-align: center;
+}
+.lpw-container .lpw-bottom-banner{}
+.lpw-container .lpw-bottom-banner img{
+  display: block;
+  width: 100%;
+  margin-top: -50px;
+}
+	
+</style>
+	
+	
 <head>
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimumscale=1,
 maximum-scale=1">
@@ -20,8 +110,7 @@ maximum-scale=1">
 </head>
 <body>
 
-<div class="live_person_id " data-enable="true" id="LP_DIV_1499957219359" style="width: 40px; height: 40px">
-</div>
+
 	
 
 	
